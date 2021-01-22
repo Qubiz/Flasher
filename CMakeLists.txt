@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(PleaseChangeMe
+project(Flasher
         VERSION 0.0.1)
 
 set(CMAKE_CXX_STANDARD  20)
 
-option(TEST "Enable testing" OFF)
+option(FLASHER_TEST "Enable testing" OFF)
 
 # Add external dependencies
 add_subdirectory(ext)
